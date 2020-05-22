@@ -7,7 +7,5 @@
         </select>
     </div>
 
-    <pre>$category_id: {{ $category_id }}</pre>
-
-    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js" defer></script>
+    @dump($category_id)
 </div>
