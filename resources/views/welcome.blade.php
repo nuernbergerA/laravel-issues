@@ -10,5 +10,8 @@
     <body>
         @livewire('something')
         @livewireScripts
+        <pre>
+@stack('scripts')
+        </pre>
     </body>
 </html>
